@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #e9f1ff;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.balance-card {
+    background: #0b54c1;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.balance-card h1 {
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.overview-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.green { color: #00b050; }
+.red { color: #e01e37; }
+
+.main-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    gap: 25px;
+}
+
+.details-box, .history-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.details-box p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.reset-btn {
+    background: #f1f1f1;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    margin: 10px 0 20px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fbff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.transaction h4 {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+}
